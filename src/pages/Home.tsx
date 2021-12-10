@@ -1,7 +1,7 @@
 import { initializeApp } from "firebase/app";
 import { firebaseConfig } from "../firebase/firebase";
 import { collection, getDocs, getFirestore } from "firebase/firestore/lite";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 
 export default function Home() {
   interface IWordsEx {
